@@ -6,9 +6,9 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Digite su primer numero");
+            Console.WriteLine("Digite su primer numero: ");
             int primerDigito = int.Parse(Console.ReadLine());
-            Console.WriteLine("Digite su segundo numero");
+            Console.WriteLine("Digite su segundo numero: ");
             int segundoDigito = int.Parse(Console.ReadLine());
             int resultado;
             Console.WriteLine("digite el signo operativo que quiere usar: + =suma, - = resta, * = multiplicacion, / = division");
@@ -17,15 +17,15 @@ namespace ConsoleApp2
             switch (signo)
             {
 
-                case "+":
-                    {
-                        resultado = (primerDigito + segundoDigito);
-                        Console.WriteLine("su resultado de la operacion es: " + resultado);
-                        break;
-                    }
                 case "-":
                     {
                         resultado = (primerDigito - segundoDigito);
+                        Console.WriteLine("su resultado de la operacion es: " + resultado);
+                        break;
+                    }
+                case "+":
+                    {
+                        resultado = (primerDigito + segundoDigito);
                         Console.WriteLine("su resultado de la operacion es: " + resultado);
                         break;
                     }
