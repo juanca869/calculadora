@@ -29,6 +29,12 @@ namespace ConsoleApp2
                         Console.WriteLine("su resultado de la operacion es: " + resultado);
                         break;
                     }
+                case "*":
+                    {
+                        resultado = (primerDigito * segundoDigito);
+                        Console.WriteLine("su resultado de la operacion es: " + resultado);
+                        break;
+                    }
                 default:
                     {
                         break;
