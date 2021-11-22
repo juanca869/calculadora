@@ -33,7 +33,9 @@ namespace ConsoleApp2
                     {
                         break;
                     }
+
             }
+            Console.WriteLine("ha salido de calculadora");
         }
     }
 }
